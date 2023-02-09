@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    background-color: rgb(243, 241, 241);
+}
+#leaf{
+    width: 450px;
+    height: 1000px;
+}
+.layout{
+    display: flex;
+    
+}
+.forms{
+    margin: 100px 0px;
+}
+#form{
+    margin-top: 50px;
+}
+.p2{
+    font-size: 35px;
+    color: rgb(83, 81, 81);
+    font-weight: bold;
+    margin-left: 40px;
+
+
+}
+.pa{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    width: 550px;
+    line-height: 30px;
+    margin-left: 40px;
+}
+.form-layout{
+    background-color:rgb(255, 255, 255);
+    width:1000px;
+    margin-left:0px;
+    box-shadow: 2px 2px 2px 2px rgba(24, 23, 23, 0.1);
+
+}
+.st{
+    display: flex;
+}
+h2{
+    margin: 0px;
+}
+input{
+    border: rgb(224, 222, 222) solid 1px;
+    border-radius: 5px;
+    width:260px;
+    height:30px;
+}
+.lain{
+    margin-right:20px;
+    margin-bottom:50px;
+    margin-left:40px;
+}
+.cr-acc{
+    width: 250px;
+    height:50px;
+    border-radius:8px;
+    color: white;
+    font-size: 20px;
+    background-color: #596D48;
+    margin: 40px;
+    border: solid 1px;
+}
+a{
+    color: #596D48;}
+
+.log{
+    margin: 10px 43px;
+    font-size: 18px;
+}
+input:invalid{
+    border-color: red;
+  }
+  
+input:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+  }
